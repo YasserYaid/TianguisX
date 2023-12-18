@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Login">INICIAR SESIÓN</string>
+    <string name="SignUp">REGISTRARSE</string>
+    <string name="Welcome">Bienvenido</string>
+    <string name="UserHint">Correo </string>
+    <string name="SelectUser">Usted es : </string>
+    <string name="PasswordHint">Contraseña </string>
+    <string name="Login_AskOne">¿No tiene cuenta de ususario y desea una?</string>
+    <string name="Login_IndicationOne">Haga clic en los enlaces azules de abajo</string>
+    <string name="Login_AskTwo">¿Quiere una cuenta como?</string>
+    <string name="Buyer"><u>COMPRADOR</u>.</string>
+    <string name="Or">Ó</string>
+    <string name="Seller"><u>VENDEDOR</u>.</string>
+
+    <string name="RegisterPin">Ingrese un pin de 6 caracteres</string>
+    <string name="RegisterAccount">Registrar Cuenta</string>
+    <string name="ModifyAccount">Modificar Cuenta</string>
+    <string name="RegisterSellerLabel">Registrar Vendedor</string>
+    <string name="ModifySellerLabel">Modificar Vendedor</string>
+    <string name="RegisterBuyerLabel">Registrar Comprador</string>
+    <string name="RegisterProductLabel">Registrar Producto</string>
+    <string name="RegisterName">Mi(s) nombre(s) es/son : </string>
+    <string name="RegisterLastName">Mi(s) apellido(s) es/son : </string>
+    <string name="RegisterMail">Mi correo es : </string>
+    <string name="RegisterPhone">Mi numero de telefono es : </string>
+    <string name="RegisterPassword">Me gustaria que mi contraseña sea : </string>
+    <string name="RegisterConfirmPassword">Confirmar contraseña : </string>
+    <string name="SelectState">Vivo en el estado de : </string>
+    <string name="SelectCity">Y en el municipio/ciudad de : </string>
+    <string name="SelectTypeSeller">Vendo : </string>
+    <string name="SelectMarket">En el tianguis : </string>
+    <string name="RegisterLocalPlace">En el local : </string>
+    <string name="From">  De :   </string>
+    <string name="FromTwo">De las : </string>
+    <string name="To">   A    </string>
+    <string name="ToTwo">A las: </string>
+    <string name="SelectBank">Banco a depositar en OXXO : </string>
+    <string name="RegisterAccountBank">No. cuenta : </string>
+    <string name="NameHint">Nombre</string>
+    <string name="LastNameHint">Apellido</string>
+    <string name="EmailHint">Correo : </string>
+    <string name="PhoneNumberHint">Numero de telefono : </string>
+    <string name="ConfirmPasswordHint">Confirmar contraseña</string>
+    <string name="LocalDescriptionHint">Descripcion ejemplo : #28 Azul</string>
+    <string name="AccountBankHint">000–000-000-7777</string>
+    <string name="MarketStreet">Ubicado en la calle : </string>
+    <string name="MarketCologne">En la colonia : </string>
+    
+    <string name="RegisterPacketReceivingAddress">Quiero recibir paquetes en la calle : </string>
+    <string name="Number">Numero de casa : </string>
+    <string name="Bank">Banco a depositar : </string>
+    <string name="BankAcoount">Cuenta de banco : </string>
+    <string name="Days">Dias disponible : </string>
+    <string name="Horario">Horario disponible : </string>
+    <string name="RegisterAdditionalPackageReceivingAddressInformation">Informacion adicional de la direccion : </string>
+    <string name="RegisterPackageReceptionHours">Puedo recibir de : </string>
+    <string name="PacketReceivingAddressHint">Nombre de la calle</string>
+    <string name="NumberReceivingAddressHint">Numero de casa o edificio</string>
+
+    <string name="RegisterProductName">Nombre : </string>
+    <string name="RegisterProductBrand">Marca : </string>
+    <string name="RegisterProductCategory">Categoria: </string>
+    <string name="RegisterProductPrice">Precio : </string>
+    <string name="RegisterAvailableQuantityProduct">Ejemplares disponibles : </string>
+    <string name="RegisterDescription">Descripcion : </string>
+    <string name="SelectImage">Seleccionar Imagen</string>
+    <string name="AverageEvaluation">Evaluacion Promedio</string>
+    <string name="AttachmentTicker">Adjuntar Ticket</string>
+    <string name="SendMessage">Enviar Mensaje</string>
+    <string name="MessageTheme">Asunto : </string>
+
+    <string name="AddReview">Agregar Reseña</string>
+    <string name="RegisterReview">Registrar Reseña</string>
+    
+    <string name="ModifyProductLabel">Modificar Producto</string>
+    <string name="DeleteProductLabel">Eliminar Producto</string>
+    <string name="ShowReviewsLabel">Mostrar Evaluaciones</string>
+    <string name="SelectProductState">Seleccione el estado del producto : </string>
+    <string name="IAmFrom">Soy de</string>
+    <string name="ReceptionDirection"> Direccion : </string>
+    <string name="SalesType"> Tipo de ventas : </string>
+    <string name="StateWork"> Estado : </string>
+    <string name="CityWork"> Ciudad : </string>
+    <string name="MarketWork"> Tianguis : </string>
+    <string name="LocalWork"> Local : </string>
+    <string name="AditionalInformationDirection">Inforamacion adicional de la direccion : </string>
+    <string name="InformationToPay">Inforamacion para pagar en OXXO : </string>
+    <string name="ModifyProfile">Modificar Perfil</string>
+    <string name="ShowSellerEvaluations">Mostrar evaluaciones</string>
+    <string name="RegisterSellerReview">Evaluar Vendedor</string>
+    <string name="DeleteProfile">Eliminar Perfil</string>
+    <string name="ModifyBuyerLabel">Modificar Comprador</string>
+    <string name="ScanQR">Escanear Código QR</string>
+    <string name="Search">Buscar</string>
+    <string name="QRInstruction">Apunte la camara del telefono al código QR y presione el boton de buscar</string>
+    <string name="SelectToBuyProduct">Apartar Producto</string>
+    <string name="ReviewProduct">Evaluar Producto</string>
+    <string name="ShareQRCode">Compartir Código QR</string>
+    <string name="Xplore">Explorar</string>
+    <string name="ExploreProducts">Explorar Productos</string>
+    <string name="SelectAState">Seleccione un estado</string>
+    <string name="SelectACity">Seleccione una ciudad</string>
+    <string name="SelectAMarket">Seleccione un tianguis</string>
+    <string name="SelectAProductCategory">Seleccione una categoria del producto</string>
+    <string name="RegisterAProductName">Ingrese el nombre del producto</string>
+    <string name="OptionSearchLabel">(Opcional) si desea mostrar todo dejelo vacio</string>
+    <string name="Settings">Ajustes</string>
+    <string name="SelectAtheme">Seleccione el tema</string>
+    <string name="SelectALanguaje">Seleccione el idioma</string>
+    <string name="Save">Guardar</string>
+    <string name="Profile">Perfil</string>
+    <string name="SelectedProducts">Poductos Apartados</string>
+    <string name="AboutUs">Acerca de</string>
+    <string name="Logout">Cerrar Sesion</string>
+    <string name="CheckInventory">Consultar Inventario</string>
+    <string name="BuyersList">Compradores con apartado</string>
+    <string name="AboutApplication">Sobre la aplicacion</string>
+    <string name="AboutApplicationDescription">Tianguis es una aplicacion para la experiencia educativa desarrollo de aplicaciones moviles
+        de la licenciatura en ingenieria de software de la facultad de estadistica e informatica,
+        la cual permite el intercambio de informacion entre compradores y vendedores locales, asi
+        como la promocion, apartado, evaluacion y reseñas de los productos y sus correspondientes
+        vendedores. Elaborada por el : </string>
+    <string name="DeveloperTeam">DESARROLLADO POR</string>
+    <string name="TeamMembers">YASSER YAID GAPI PEREZ</string>
+    <string name="TeacherInCharge">DOCENTE SUPERVISOR A CARGO</string>
+    <string name="Teacher">ANGEL EDUARDO DOMINGUEZ DELGADO</string>
+    <string name="Accept">Aceptar EULA</string>
+    <string name="Eula">Tianguis EULA</string>
+    <string name="EulaDescription">Si algo le pasa a tu dinero o telefono es tu responsabilidad no nuestra, no se me ocurrio algo mas</string>
+    <string name="ConfirmEULAMessage">He leido y acepto los terminos de licencia</string>
+    <string name="ViewDetails">Ver detalles</string>
+    <string name="ViewBuyer">Ver comprador</string>
+    <string name="SendMessageAndTicket">Enviar Ticket</string>
+    <string name="CancelOrder">Cancelar</string>
+    <string name="CancelMessage">Cancelar Mensaje</string>
+    <string name="PayConfirm">Confirmar pago</string>
+    <string name="Products">Productos</string>
+    <string name="City">Ciudad : </string>
+    <string name="State">Estado : </string>
+    <string name="Country">Pais : </string>
+    <string name="Address">Direccion : </string>
+    <string name="AdditionalInformationAddress">Informacion Adicional : </string>
+
+    //Mensajes en codigo
+    <string name="Code_Message_EULA"> Debe aceptar los terminos de licencia primero</string>
+    <string name="Code_Message_EmptyFields">Los campos no pueden quedar vacios</string>
+    <string name="Code_Message_DiferentPassword">Las Contraseñas no coinciden</string>
+    <string name="Code_Message_PinLowerTo6">El pin no puede ser menor a 6 numeros</string>
+    <string name="Code_Message_SelectImageFirst">Seleccione una imagen primero</string>
+    <string name="VeryGood">Muy Bueno</string>
+    <string name="Good">Bueno</string>
+    <string name="Regular">Regular</string>
+    <string name="Bad">Malo</string>
+    <string name="VeryBad">Muy Malo</string>
+
+    //Arrays
+    <string-array name="UserTypes"><item>Comprador</item><item>Vendedor</item></string-array>
+    <string-array name="SellerTyper">
+        <item>Ropa</item>
+        <item>Abarrotes</item>
+        <item>Autos</item>
+    </string-array>
+    <string-array name="Days">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string-array name="Hours">
+        <item>12:00 a.m</item>
+        <item>12:30 a.m</item>
+        <item>1:00 a.m</item>
+        <item>1:30 a.m</item>
+        <item>2:00 a.m</item>
+        <item>2:30 a.m</item>
+        <item>3:00 a.m</item>
+        <item>3:30 a.m</item>
+        <item>4:00 a.m</item>
+        <item>4:30 a.m</item>
+        <item>5:00 a.m</item>
+        <item>5:30 a.m</item>
+        <item>6:00 a.m</item>
+        <item>6:30 a.m</item>
+        <item>7:00 a.m</item>
+        <item>7:30 a.m</item>
+        <item>8:00 a.m</item>
+        <item>8:30 a.m</item>
+        <item>9:00 a.m</item>
+        <item>9:30 a.m</item>
+        <item>10:00 a.m</item>
+        <item>10:30 a.m</item>
+        <item>11:00 a.m</item>
+        <item>11:30 a.m</item>
+        <item>12:00 p.m</item>
+        <item>12:30 p.m</item>
+        <item>1:00 p.m</item>
+        <item>1:30 p.m</item>
+        <item>2:00 p.m</item>
+        <item>2:30 p.m</item>
+        <item>3:00 p.m</item>
+        <item>3:30 p.m</item>
+        <item>4:00 p.m</item>
+        <item>4:30 p.m</item>
+        <item>5:00 p.m</item>
+        <item>5:30 p.m</item>
+        <item>6:00 p.m</item>
+        <item>6:30 p.m</item>
+        <item>7:00 p.m</item>
+        <item>7:30 p.m</item>
+        <item>8:00 p.m</item>
+        <item>8:30 p.m</item>
+        <item>9:00 p.m</item>
+        <item>9:30 p.m</item>
+        <item>10:00 p.m</item>
+        <item>10:30 p.m</item>
+        <item>11:00 p.m</item>
+        <item>11:30 p.m</item>
+    </string-array>
+    <string-array name="Countrys"><item>Mexico</item></string-array>
+    <string-array name="Mexico_States">
+        <item>Veracruz</item>
+    </string-array>
+    <string-array name="Veraruz_Citys">
+        <item>Xalapa</item>
+    </string-array>
+    <string-array name="Xalapa_Markets">
+        <item>Primero de mayo</item>
+        <item>De pulgas</item>
+        <item>Autos</item>
+    </string-array>
+    <string-array name="Banks">
+        <item>Banamex</item>
+        <item>Banorte</item>
+        <item>Bancomer</item>
+    </string-array>
+    <string-array name="ProductCategory">
+        <item>Ropa</item>
+        <item>Abarrotes</item>
+        <item>Electronica</item>
+        <item>Otra</item>
+        <item>Autos</item>
+    </string-array>
+    <string-array name="ProductStates">
+        <item>Nuevo</item>
+        <item>Seminuevo</item>
+        <item>Usado</item>
+    </string-array>
+
+
+</resources>

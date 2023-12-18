@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TianguisX"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.cu20.ExploreProductsFoundActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="android:screenOrientation"/>
+        <activity
+            android:name=".ui.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu22.ShowSellerInformationCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu21.ChangeSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu20.ExploreProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu19.SendPaymentTicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu18.ShowProductInformationCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu17.ShowSelectedProductsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu16.ScanQRCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu15.ModifyBuyerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu14.ShowBuyerProfileDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu13.ShowSellerReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu12.ModifySellerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu11.ShowSellerProfileDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu10.ShowBuyerInformationCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu09.ShowBuyersListBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu08.ShowProductReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu07.ModifyProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu06.ShowProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu05.CheckInventoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu04.RegisterProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu03.RegisterBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu02.RegisterSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cu01.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BuyerMainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SellerMainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

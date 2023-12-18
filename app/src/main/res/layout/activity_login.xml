@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cu01.LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Welcome"
+                android:textStyle="bold"
+                android:textSize="58sp"
+                android:fontFamily="@font/edwardianscript"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/SelectUser"/>
+
+            <Spinner
+                android:id="@+id/ui_01_spin_usetype"
+                android:background="@drawable/edittext_rounded"
+                android:layout_width="300dp"
+                android:layout_height="36dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/EmailHint"/>
+
+            <EditText
+                android:id="@+id/ui_01_et_email"
+                android:background="@drawable/edittext_rounded"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/UserHint"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/PasswordHint"/>
+
+            <EditText
+                android:id="@+id/ui_01_et_password"
+                android:background="@drawable/edittext_rounded"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/PasswordHint"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/ui_01_btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/Login"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Login_AskOne"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Login_IndicationOne"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:text="@string/Login_AskTwo"/>
+
+                <TextView
+                    android:id="@+id/ui_01_tv_buyer_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="@color/customBlue"
+                    android:text="@string/Buyer"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/Or"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:text="@string/Login_AskTwo"/>
+
+                <TextView
+                    android:id="@+id/ui_01_tv_seller_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="@color/customBlue"
+                    android:text="@string/Seller"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#0000"
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:indeterminateTint="@color/customBlue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</ScrollView>

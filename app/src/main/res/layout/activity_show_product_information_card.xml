@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.cu18.ShowProductInformationCardActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ui_18_ShowProductInformationCard_iv_product_image"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                tools:background="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterProductName"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="Gorrito de bebe"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterProductBrand"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="BabyColor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterProductPrice"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="200"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterProductCategory"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="Ropa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterAvailableQuantityProduct"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="300"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RegisterDescription"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_desciption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    tools:text="Gorrito con forma de osito para bebes"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/AverageEvaluation"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:fontFamily="@font/edwardianscript"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="@android:color/holo_orange_dark"
+                    android:isIndicator="true"/>
+
+                <TextView
+                    android:id="@+id/ui_18_ShowProductInformationCard_et_product_average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="36sp"
+                    tools:text="8.8" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ui_18_ShowProductInformationCard_SelectToBuy_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/SelectToBuyProduct"/>
+
+            <Button
+                android:id="@+id/ui_18_ShowProductInformationCard_register_evaluation_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/ReviewProduct"/>
+
+            <Button
+                android:id="@+id/ui_18_ShowProductInformationCard_show_evaluations_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/ShowReviewsLabel"/>
+
+            <Button
+                android:id="@+id/ui_18_ShowProductInformationCard_shareQR_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textSize="13dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/ShareQRCode"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#0000"
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:indeterminateTint="@color/customBlue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</ScrollView>

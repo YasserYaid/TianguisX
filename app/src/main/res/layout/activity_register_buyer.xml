@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cu03.RegisterBuyerActivity">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:gravity="center"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="300dp"
+              android:layout_height="200dp"
+              android:src="@drawable/logo"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="@string/RegisterBuyerLabel"
+              android:textStyle="bold"
+              android:textSize="48sp"
+              android:fontFamily="@font/edwardianscript"/>
+
+          <TextView
+              android:layout_marginTop="10dp"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterName"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_name"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/NameHint"
+              android:inputType="text"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterLastName"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_last_name"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/LastNameHint"
+              android:inputType="text"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterMail"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_email"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/EmailHint"
+              android:inputType="textEmailAddress"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterPhone"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_phone"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/PhoneNumberHint"
+              android:inputType="number"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterPassword"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_password"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/PasswordHint"
+              android:inputType="textPassword"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterConfirmPassword"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_confirm_password"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/ConfirmPasswordHint"
+              android:inputType="textPassword"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/SelectState"/>
+
+          <Spinner
+              android:id="@+id/ui_03_RegisterBuyer_spinner_state"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/SelectCity"/>
+
+          <Spinner
+              android:id="@+id/ui_03_RegisterBuyer_spinner_city"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterPacketReceivingAddress"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_street"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/PacketReceivingAddressHint"
+              android:inputType="text"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/Number"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_NumberStreet"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/NumberReceivingAddressHint"
+              android:inputType="text"
+              android:textAlignment="center"/>
+
+          <TextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/RegisterAdditionalPackageReceivingAddressInformation"/>
+
+          <EditText
+              android:id="@+id/ui_03_RegisterBuyer_et_AditionalStreetDescription"
+              android:background="@drawable/edittext_rounded"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="@string/RegisterAdditionalPackageReceivingAddressInformation"
+              android:inputType="text"
+              android:textAlignment="center"/>
+
+          <LinearLayout
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginTop="3dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/RegisterPackageReceptionHours"/>
+
+              <Spinner
+                  android:id="@+id/ui_03_RegisterBuyer_spinner_firstHour"
+                  android:background="@drawable/edittext_rounded"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAlignment="center"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="2dp"
+                  android:text="@string/To"/>
+
+              <Spinner
+                  android:id="@+id/ui_03_RegisterBuyer_spinner_lastHour"
+                  android:background="@drawable/edittext_rounded"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAlignment="center"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginTop="3dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/From"/>
+
+              <Spinner
+                  android:id="@+id/ui_03_RegisterBuyer_spinner_firstDay"
+                  android:background="@drawable/edittext_rounded"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAlignment="center"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/To"/>
+
+              <Spinner
+                  android:id="@+id/ui_03_RegisterBuyer_spinner_lastDay"
+                  android:background="@drawable/edittext_rounded"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAlignment="center"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginTop="10dp"
+              android:gravity="center">
+
+              <Button
+                  android:id="@+id/ui_03_btn_select_image"
+                  android:layout_width="130dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="20dp"
+                  android:backgroundTint="@color/customBlue"
+                  android:text="@string/SelectImage"/>
+
+              <Button
+                  android:id="@+id/ui_03_btn_register_account"
+                  android:layout_width="130dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="20dp"
+                  android:backgroundTint="@color/customBlue"
+                  android:text="@string/RegisterAccount"/>
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+      <FrameLayout
+          android:visibility="gone"
+          android:clickable="true"
+          android:focusable="true"
+          android:background="#0000"
+          android:id="@+id/progress"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <ProgressBar
+              android:indeterminateTint="@color/customBlue"
+              android:layout_gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+      </FrameLayout>
+
+  </FrameLayout>
+
+</ScrollView>

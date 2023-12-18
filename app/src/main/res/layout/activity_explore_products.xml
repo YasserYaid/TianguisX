@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.cu20.ExploreProductsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ExploreProducts"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:fontFamily="@font/edwardianscript"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectAState"/>
+
+        <Spinner
+            android:id="@+id/ui_20_ExploreProducts_spinner_state"
+            android:background="@drawable/edittext_rounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectACity"/>
+
+        <Spinner
+            android:id="@+id/ui_20_ExploreProducts_spinner_city"
+            android:background="@drawable/edittext_rounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectAMarket"/>
+
+        <Spinner
+            android:id="@+id/ui_20_ExploreProducts_spinner_market"
+            android:background="@drawable/edittext_rounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SelectAProductCategory"/>
+
+        <Spinner
+            android:id="@+id/ui_20_ExploreProducts_spinner_productCategory"
+            android:background="@drawable/edittext_rounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/RegisterAProductName"/>
+
+        <EditText
+            android:id="@+id/ui_20_ExploreProducts_ProductName"
+            android:background="@drawable/edittext_rounded"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/RegisterProductName"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/OptionSearchLabel"/>
+
+
+        <Button
+            android:id="@+id/ui_20_ExploreProducts_explore_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/customBlue"
+            android:text="@string/Xplore"/>
+
+    </LinearLayout>
+
+</LinearLayout>

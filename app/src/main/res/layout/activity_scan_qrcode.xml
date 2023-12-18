@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cu16.ScanQRCodeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/ScanQR"
+                android:textStyle="bold"
+                android:textSize="48sp"
+                android:fontFamily="@font/edwardianscript"/>
+
+            <ImageView
+                android:src="@drawable/qrcode_scan"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <TextView
+                android:id="@+id/text_result"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:text="@string/QRInstruction"/>
+
+            <TextView
+                android:id="@+id/text_result2"
+                android:layout_width="300dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/ui_16_ScanQRCode_search_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/customBlue"
+                android:text="@string/Search"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#0000"
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:indeterminateTint="@color/customBlue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</ScrollView>
